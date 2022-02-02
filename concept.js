@@ -22,6 +22,21 @@
 
 
 
+ //Anonymous Function : 
+ function (){   }   // this is the way to create an anonymous function . 
+                    // But if we create or use  like this it will gives us an error .
+                    //we can use it when we have to passed a function as a value .
+
+
+
+//Named Function:
+
+const testFunction = function testIt(){ }  // this is a named function expression 
+                                            //at the place of anonymous function if we use 
+                                         //a function staement inside varibale . It will be a named functrion 
+      // noticeable thing is that if we want to use 'testIt' Function outside the 'testFunction' it will gives us a syntext error . It is just because of SCOPE .                                   
+
+
 // 2. Higher Order Function 
 // 3. Reduce 
 // 4. Object loop 
